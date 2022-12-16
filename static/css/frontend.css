@@ -1,0 +1,67 @@
+body {
+  font-family: 'Crimson Text', serif !important; /* https://fonts.google.com/ */
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+/* .nav-contents {
+  width: 100vw;
+  height: 5vh;
+} */
+/* .main-contents {
+  width: 100vw;
+  height: 80vh;
+} */
+/* .footer-contents {
+  width: 100vw;
+  height: 15vh;
+} */
+.text-shadow {
+  text-shadow: 2px 2px 5px grey;
+}
+.text-deep-shadow {
+  color: black;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 20px black;
+}
+.frontend-navlink {
+  font-size: 30px;
+}
+.tag-card, .village-card {
+  margin-top: 20px;
+}
+.post-header, .tag-left-sidebar {
+  width: 100%;
+  padding-top: 5px;
+}
+.post-title:hover {
+  text-decoration: none;
+  color: red;
+}
+.post-header-image, .tag-header-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.post-body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+article {
+  padding: 5px;
+  width: 100% !important;
+}
+.post-contents>p>img, .post-contents>img {
+  max-width: 100% !important;
+  height: auto !important;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 2px 2px 5px grey;
+  background-color: white;
+  display: block;
+  border-radius: 5px;
+}
